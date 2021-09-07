@@ -1,6 +1,6 @@
 # Minhas rede sociais
 ## Quem sou eu?
-![foto-perfil-felipe](https://user-images.githubusercontent.com/77865539/132395834-339a8908-1bbb-4ff6-bc0f-298dc70c06a1.png)  
+![foto2-felipe-150](https://user-images.githubusercontent.com/77865539/132397654-b94ec2c8-5384-45e5-a456-25659bee95be.png)    
 Meu nome é **Felipe Quaglia Gambini**, sou estudante do 4º ano de Administração da Univesidade Estadual de Maringá e Analista de Dados Administrativos na [Crefaz](https://crefaz.com.br), uma empresa de microcrédito fundada em 2013, no setor de Inteligência de Negócios, onde analisamos todas as informações possíveis para a tomada de decisão correta. Gosto muito de programação, atualmente estou aprendendo Python, HTML, CSS e JavaScript.
 ## Como falar comigo?
 - ![icone-github](https://user-images.githubusercontent.com/77865539/132395944-2d4f3517-1f7a-403a-b3f7-490fc0a5bd57.png)[/felipegambini](https://github.com/felipegambini) - Meu perfil no GitHub
