@@ -53,6 +53,7 @@ p {
 .crefaz {
     color: #213458;
     text-decoration: inherit;
+    font-weight: bold;
 }
 
 .crefaz:hover {
