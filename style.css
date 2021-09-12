@@ -14,19 +14,19 @@ main {
 }
 
 body {
-    background-image: linear-gradient(to right, #00BFB2, #028090);
+    background-image: linear-gradient(to right, #00BFB2, #1f1f53);
 }
 
 h1 {
     text-align: center;
-    color: #1A5E63;
-    text-shadow: 1px 1px 2px #022327b0;
+    color: #1f1f53;
+    text-shadow: 1px 1px 2px #17174185;
 }
 
 h2 {
     text-align: center;
     color: #028090;
-    text-shadow: 1px 1px 1px #013f3bb2;
+    text-shadow: 1px 1px 2px #081a2585;
 }
 
 p {
@@ -42,5 +42,9 @@ strong {
     margin-left: auto;
     margin-right: auto;
     border-radius: 100%;
-    box-shadow: 2px 2px 7px #4f503f;
+    box-shadow: 2px 2px 7px #4e4e4e;
+}
+
+a:hover {
+    color: orangered;
 }
