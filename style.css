@@ -14,7 +14,7 @@ main {
 }
 
 body {
-    background-image: linear-gradient(to right, #00BFB2, #1f1f53);
+    background-image: linear-gradient(to right, #0079bf, #1f1f53);
 }
 
 h1 {
@@ -25,7 +25,7 @@ h1 {
 
 h2 {
     text-align: center;
-    color: #028090;
+    color: #024490;
     text-shadow: 1px 1px 2px #081a2585;
 }
 
@@ -33,8 +33,13 @@ p {
     text-align: justify;
 }
 
-strong {
+.name {
+    font-weight: bold;
     font-size: 1.1em;
+}
+
+.name:hover {
+    color: #1f1f53;
 }
 
 .profile {
@@ -45,6 +50,16 @@ strong {
     box-shadow: 2px 2px 7px #4e4e4e;
 }
 
-a:hover {
-    color: orangered;
+.crefaz {
+    color: #213458;
+    text-decoration: inherit;
+}
+
+.crefaz:hover {
+    color: #E47816;
+}
+
+.sociais {
+    margin: auto;
+    width: 200px;
 }
