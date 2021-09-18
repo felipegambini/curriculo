@@ -8,7 +8,8 @@ main {
     background-color: #fffffa;
     margin: auto;
     padding: 10px;
-    box-shadow: 5px 5px 15px #000000c7;
+    padding-bottom: 1px;
+    box-shadow: 5px 5px 15px #00000085;
     border-radius: 10px;
     width: 95%;
 }
@@ -20,13 +21,13 @@ body {
 h1 {
     text-align: center;
     color: #1f1f53;
-    text-shadow: 1px 1px 2px #17174185;
+    text-shadow: 1px 1px 2px #00000085;
 }
 
 h2 {
     text-align: center;
     color: #024490;
-    text-shadow: 1px 1px 2px #081a2585;
+    text-shadow: 1px 1px 2px #00000085;
 }
 
 p {
@@ -66,7 +67,7 @@ img {
 .profile {
     display: block;
     margin: auto;
-    box-shadow: 2px 2px 6px #4e4e4e;
+    box-shadow: 2px 2px 6px #0000004b;
     border: 3px solid white;
 }
 
@@ -87,4 +88,11 @@ img {
 
 .links {
     margin: 3px;
+}
+
+#mark {
+    font-size: 8px;
+    color: grey;
+    text-align: center;
+    padding-top: 10px;
 }
