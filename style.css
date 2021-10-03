@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+:root {
+    --corfundo: whitesmoke;
+}
+
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -13,7 +17,7 @@ body {
 header {
     display: table;
     width: 100%;
-    background-color: #fffffa;
+    background-color: var(--corfundo);
     height: 75px;
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
 }
@@ -28,7 +32,7 @@ header > h1 {
 }
 
 main {
-    background-color: #fffffa;
+    background-color: var(--corfundo);
     margin: auto;
     padding: 10px;
     padding-bottom: 1px;
@@ -41,6 +45,28 @@ h2 {
     text-align: center;
     color: #024490;
     text-shadow: 1px 1px 2px #00000085;
+}
+
+.infos {
+    text-align: center;
+    padding: 5px;
+    line-height: 25px;
+    width: fit-content;
+    margin: 10px auto;
+}
+
+.infos > p {
+    display: inline-table;
+    color: rgb(109, 109, 109);
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    margin: 5px 20px;
+}
+
+.infos img {
+    vertical-align: middle;
+    padding-right: 5px;
 }
 
 p {
@@ -66,7 +92,7 @@ a:active {
     color:#5e758f;
 }
 
-img {
+img.circle {
     border-radius: 50%;
 }
 
