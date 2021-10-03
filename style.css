@@ -16,24 +16,28 @@ body {
 
 header {
     display: table;
+    position: relative;
+    z-index: 1;
     width: 100%;
     background-color: var(--corfundo);
-    height: 75px;
-    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+    padding: 10px 0px;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.2);
 }
 
 header > h1 {
     display: table-cell;
     vertical-align: middle;
+    font-size: 1.7em;
     margin: 0px;
     text-align: center;
     color: #1f1f53;
-    text-shadow: 1px 1px 2px #00000085;
+    text-shadow: 1px 1px 1.5px #00000085;
 }
 
 main {
     background-color: var(--corfundo);
     margin: auto;
+    margin-bottom: 10px;
     padding: 10px;
     padding-bottom: 1px;
     box-shadow: 7px 5px 10px #00000085;
@@ -108,7 +112,7 @@ img.circle {
 .profile {
     display: block;
     margin: auto;
-    box-shadow: 2px 2px 6px #0000004b;
+    box-shadow: 2px 2px 5px #0000004b;
     border: 3px solid white;
 }
 
