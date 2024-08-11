@@ -9,7 +9,7 @@
 }
 
 body {
-    background-image: linear-gradient(to right, #0079bf, #1f1f53);
+    background-image: whitesmoke;
     margin: 0px;
     padding: 0px;
 }
@@ -30,25 +30,25 @@ header > h1 {
     font-size: 1.7em;
     margin: 0px;
     text-align: center;
-    color: #1f1f53;
-    text-shadow: 1px 1px 1.5px #00000085;
+    color: #252525;
 }
 
 main {
     background-color: var(--corfundo);
     margin: auto;
-    margin-bottom: 10px;
     padding: 10px;
     padding-bottom: 1px;
-    box-shadow: 7px 5px 10px #00000085;
-    border-radius: 0px 0px 10px 10px;
-    width: 95%;
+    height: 100%;
+    position: relative;
+    margin-left: 500px;
 }
 
 h2 {
-    text-align: center;
-    color: #024490;
-    text-shadow: 1px 1px 2px #00000085;
+    text-align: left;
+    color: #02317a;
+    padding: 10px;
+    margin: auto;
+    font-weight: normal;
 }
 
 .infos {
@@ -75,8 +75,12 @@ h2 {
 
 p {
     text-align: justify;
-    max-width: 1000px;
+    max-width: 90%;
     margin: auto;
+}
+
+section > p {
+    margin-bottom: 10px;
 }
 
 a {
@@ -100,35 +104,17 @@ img.circle {
     border-radius: 50%;
 }
 
-.name {
-    font-weight: bold;
-    font-size: 1.1em;
-}
-
-.name:hover {
-    color: #1f1f53;
-}
-
 .profile {
     display: block;
     margin: auto;
-    box-shadow: 2px 2px 5px #0000004b;
-    border: 3px solid white;
-}
-
-.crefaz {
-    color: #213458;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.crefaz:hover {
-    color: #E47816;
+    /* border: 3px solid white; */
+    width: 150px;
 }
 
 .sociais {
     margin: auto auto 20px auto;
     width: fit-content;
+    display: flex;
 }
 
 .links {
@@ -140,4 +126,16 @@ img.circle {
     color: grey;
     text-align: center;
     padding-top: 10px;
+}
+
+article {
+    position: fixed;
+    z-index: 100000;
+    background-color: #171717;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 450px;
+    color: whitesmoke;
+    padding: 20px;
 }
