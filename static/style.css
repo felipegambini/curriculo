@@ -15,22 +15,20 @@ body {
 }
 
 header {
-    display: table;
-    position: relative;
-    z-index: 1;
-    width: 100%;
-    background-color: var(--corfundo);
-    padding: 10px 0px;
-    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    z-index: 100000;
+    background-color: #171717;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 350px;
+    color: whitesmoke;
+    padding: 20px;
 }
 
 header > h1 {
-    display: table-cell;
-    vertical-align: middle;
-    font-size: 1.7em;
-    margin: 0px;
+    font-size: 20px;
     text-align: center;
-    color: #252525;
 }
 
 main {
@@ -40,7 +38,7 @@ main {
     padding-bottom: 1px;
     height: 100%;
     position: relative;
-    margin-left: 500px;
+    margin-left: 390px;
 }
 
 h2 {
@@ -49,6 +47,28 @@ h2 {
     padding: 10px;
     margin: auto;
     font-weight: normal;
+}
+
+.navbar {
+    padding-left: 0px;
+    list-style-type: none;
+}
+
+.navbar > li {
+    color: whitesmoke;
+    font-size: 20px;
+    text-align: left;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 15px;
+}
+
+.navbar > li > a {
+    color: white;
+}
+.navbar > li > a:hover {
+    text-decoration: none;
+    color: #003b72;
 }
 
 .infos {
@@ -62,15 +82,18 @@ h2 {
 .infos > p {
     display: inline-table;
     color: rgb(109, 109, 109);
-    font-weight: bold;
-    font-size: 15px;
-    text-align: center;
-    margin: 5px 20px;
+    margin: 5px 10px;
 }
 
-.infos img {
-    vertical-align: middle;
-    padding-right: 5px;
+.infos > p {
+    background-color: #2e2e2e;
+    border-radius: 50%;
+    padding: 5px 10px;
+    font-size: 20px;
+}
+
+.infos > p:hover {
+    background-color: #003b72;
 }
 
 p {
@@ -85,7 +108,7 @@ section > p {
 
 a {
     text-decoration: none;
-    color: darkblue;
+    color: rgb(255, 255, 255);
 }
 
 a:hover {
@@ -93,11 +116,11 @@ a:hover {
 }
 
 a:visited {
-    color: rgb(4, 4, 56);
+    color: rgb(255, 255, 255);
 }
 
 a:active {
-    color:#5e758f;
+    color:#ffffff;
 }
 
 img.circle {
@@ -111,31 +134,17 @@ img.circle {
     width: 150px;
 }
 
-.sociais {
-    margin: auto auto 20px auto;
-    width: fit-content;
-    display: flex;
-}
-
 .links {
     margin: 3px;
 }
 
 #mark {
+    position: fixed;
+    z-index: 1000000;
+    left: 0px;
+    bottom: 5px;
+    width: 390px;
     font-size: 8px;
     color: grey;
     text-align: center;
-    padding-top: 10px;
-}
-
-article {
-    position: fixed;
-    z-index: 100000;
-    background-color: #171717;
-    top: 0px;
-    left: 0px;
-    height: 100%;
-    width: 450px;
-    color: whitesmoke;
-    padding: 20px;
 }

@@ -5,32 +5,74 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="static/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Felipe Gambini</title>
 </head>
 <body>
     <header>
-        <h1>FELIPE QUAGLIA GAMBINI</h1>
+        <img src="imagens/profilePicture.png" alt="Foto de perfil Felipe" class="profile circle">
+        <h1>Felipe Quaglia Gambini</h1>
+        <div class="infos">
+            <p>
+                <a href="https://wa.me/+5544991315400" target="_blank" rel="external">
+                <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                </a>
+            </p>
+            <p>
+                <a href="mailto:felipequagliagambini@gmail.com" target="_blank" rel="external">
+                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                </a>
+            </p>
+            <p>
+                <a href="https://www.instagram.com/felipegambini" target="_blank" rel="noopener noreferrer">
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+            </p>
+            <p>
+                <a href="https://www.linkedin.com/in/felipegambini/" target="_blank" rel="noopener noreferrer">
+                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                </a>
+            </p>
+            <p>
+                <a href="https://github.com/felipegambini" target="_blank" rel="external">
+                    <i class="fa fa-github" aria-hidden="true"></i>
+                </a>
+            </p>
+        </div>
+        <nav>
+            <ul class="navbar" >
+                <li><a href="#"><i class="fa fa-user-o" aria-hidden="true"></i> Sobre</a></li>
+                <li><a href="#"><i class="fa fa-code" aria-hidden="true"></i> Skills</a></li>
+                <li><a href="#"><i class="fa fa-bookmark-o" aria-hidden="true"></i> Experiências</a></li>
+                <li><a href="#"><i class="fa fa-file-text-o" aria-hidden="true"></i> Portifólio</a></li>
+                <li><a href="#"><i class="fa fa-phone" aria-hidden="true"></i> Contato</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
-        <h2>Quem sou eu?</h2>
-        <img src="imagens/foto2-felipe-150.png" alt="Foto de perfil Felipe" class="profile circle">
-        <div class="infos">
-            <p> <img src="imagens/birth.png" alt="nascimento">20/04/2000</p>
-            <p><img src="imagens/phone.png" alt="telefone"></img>(44) 9 9131-5400</p>
-            <p><img src="imagens/gmail.png" alt="email">skamaringa@gmail.com</p>
-        </div>
-        <p>Meu nome é <span class="name">Felipe Quaglia Gambini</span>. Sou estudante do 4º ano de Administração da Univesidade Estadual de Maringá e Analista de Dados Administrativos no setor de Inteligência de Negócios na <a class="crefaz" href="https://crefaz.com.br" target="_blank" rel="external">Crefaz</a>, uma empresa de empréstimos e financiamentos fundada em 2013. Gosto muito de programação, e atualmente estou aprendendo Python, HTML, CSS e JavaScript.</p>
-        <h2>Como falar comigo?</h2>
-        <div class="sociais">
-                <p class="links"><a href="https://github.com/felipegambini" target="_blank" rel="external"><img src="imagens/icone-github.png" alt="icone-github" class="circle"> - GitHub</a></p>
-                <p class="links"><a href="https://instagram.com/felipegambini" target="_blank" rel="external"><img src="imagens/icone-instagram.png" alt="icone-instagram" class="circle"> - Instagram</a></p>
-                <p class="links"><a href="https://www.linkedin.com/in/felipegambini/" target="_blank" rel="external"><img src="imagens/icone-linkedin.png" alt="icone-linkedin" class="circle"> - LinkedIn</a></p>
-                <p class="links"><a href="https://twitter.com/felipegambini" target="_blank" rel="external"><img src="imagens/icone-twitter.png" alt="icone-twitter" class="circle"> - Twitter</a></p>
-                <p class="links"><a href="https://www.facebook.com/felipe.gambini.90" target="_blank" rel="external"><img src="imagens/icone-facebook.png" alt="icone-facebook" class="circle"> - Facebook</a></p>
-        </div>
-        <p id="mark">Desenvolvido por Felipe Quaglia Gambini</p>
+        <h2>Sobre</h2>
+
+        <section>
+            <p>Atualmente sou Analista de Dados Senior em uma financeira.</p>
+            <p>Tenho 4 anos de experiência com Power BI, DAX avançado e Excel avançado;</p>
+            <p>Um pouco mais de 3 anos de experiência em python;</p>
+            <p>Em torno de 1 ano e meio de experiência em SQL.</p>
+            <p>Por ter pouco acesso aos bancos de dados na empresa, no inicio realizava o ETL no próprio power query, ao longo do tempo migrei tudo para python para melhorar a performance do ETL e dos painéis. Agora com mais abertura aos bancos, também utilizo muito para consulta e para construção de aplicações com dados quase em tempo real.</p>
+            <p>Comecei a estudar Git junto com Python e hoje utilizo muito no meu dia a dia para versionamento e colaboração de código, aprendi Git tanto em CLI quanto por interface do GitHub Desktop, sou fascinado pela documentações tanto do Git quanto Python e de outras ferramentas.</p>
+            <p>Comecei aprendendo Python para automação de processos, e após para tratamento de dados.</p>
+            <p>Hoje, grande parte do meu conhecimento é voltado para análise e tratamento de dados com pandas e duckdb. Mas já tive muita experiência com vários recursos que o python oferece (Flask, WebScraping, automação de tarefas, requests, TKinter e PySimpleGUI, REST APIs, ML).</p>
+        </section>
+
+        <h2>Skills</h2>
+        <h2>Experiências</h2>
+        <h2>Portifólio</h2>
+        <h2>Contato</h2>
+
     </main>
+    <footer>
+        <p id="mark">Desenvolvido por Felipe Quaglia Gambini</p>
+    </footer>
 
 </body>
 </html>
