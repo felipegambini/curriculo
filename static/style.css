@@ -2,10 +2,13 @@
 
 :root {
     --corfundo: whitesmoke;
+    --corsecundaria: #0060b9;
+    --corprimaria: #171717;
+    --corterciaria: #2e2e2e;
 }
 
 * {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
@@ -17,7 +20,7 @@ body {
 header {
     position: fixed;
     z-index: 100000;
-    background-color: #171717;
+    background-color: var(--corprimaria);
     top: 0px;
     left: 0px;
     height: 100%;
@@ -27,7 +30,8 @@ header {
 }
 
 header > h1 {
-    font-size: 20px;
+    font-size: 24px;
+    font-weight: normal;
     text-align: center;
 }
 
@@ -43,10 +47,15 @@ main {
 
 h2 {
     text-align: left;
-    color: #02317a;
+    color: var(--corsecundaria);
     padding: 10px;
     margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
     font-weight: normal;
+    border-bottom: 3px solid var(--corsecundaria);
+    border-image: linear-gradient(to right, var(--corsecundaria) 3%, transparent 6%) 100% 1;
+    padding-bottom: 15;
 }
 
 .navbar {
@@ -68,7 +77,12 @@ h2 {
 }
 .navbar > li > a:hover {
     text-decoration: none;
-    color: #003b72;
+    color: var(--corsecundaria);
+    transition: 0.50s;
+}
+
+.navbar > li > a > i {
+    width: 25px;
 }
 
 .infos {
@@ -86,14 +100,15 @@ h2 {
 }
 
 .infos > p {
-    background-color: #2e2e2e;
+    background-color: var(--corterciaria);
     border-radius: 50%;
     padding: 5px 10px;
     font-size: 20px;
 }
 
 .infos > p:hover {
-    background-color: #003b72;
+    background-color: var(--corsecundaria);
+    transition: 0.50s;
 }
 
 p {
@@ -125,6 +140,7 @@ a:active {
 
 img.circle {
     border-radius: 50%;
+    border: 5px solid var(--corterciaria);
 }
 
 .profile {
@@ -144,7 +160,7 @@ img.circle {
     left: 0px;
     bottom: 5px;
     width: 390px;
-    font-size: 8px;
+    font-size: 10px;
     color: grey;
     text-align: center;
 }
