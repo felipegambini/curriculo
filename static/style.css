@@ -216,3 +216,33 @@ small {
     font-size: 14px;
     color: #696969;
 }
+
+.card > img {
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: 150px;
+    border-radius: 7px;
+}
+
+.card-group {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+.card {
+    background-color: #d8d8d8;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 12px;
+    width: 225px;
+}
+
+img:hover {
+    transform: scale(4);
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transition: 0.5s;
+}
