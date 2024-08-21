@@ -239,10 +239,43 @@ small {
     width: 225px;
 }
 
-img:hover {
-    transform: scale(4);
-    position: fixed;
-    left: 50%;
-    top: 50%;
-    transition: 0.5s;
+.card > img:hover {
+    transform: scale(2.5);
+    transition: 0.5s ease-in-out;
+}
+
+.card-content {
+    display: flex;
+    height: 170px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-content > h4 {
+    font-size: 18px;
+}
+
+.card-content > * {
+    margin-bottom: 0px;
+}
+
+.credential {
+    color: var(--corterciaria);
+    font-size: 12px;
+    border: 1px solid var(--corterciaria);
+    width: fit-content;
+    padding: 3px;
+    border-radius: 12px;
+}
+
+.credential:hover {
+    text-decoration: none;
+}
+
+.credential:visited {
+    color: var(--corterciaria);
+}
+
+.credential:active {
+    color: var(--corterciaria);
 }
