@@ -5,6 +5,7 @@
     --corsecundaria: #0060b9;
     --corprimaria: #171717;
     --corterciaria: #2e2e2e;
+    --mobile_view_width: 1000px;
 }
 
 * {
@@ -33,6 +34,28 @@ header {
     padding: 20px;
 }
 
+@media (max-width: 1000px){
+    header {
+        height: 150px;
+        width: 100%;
+        position: fixed;
+    }
+
+    .profile {
+        position: fixed;
+        left: 10px;
+        top: 8px;
+        transform: scale(0.8);
+    }
+    .navbar > li {
+        display: inline;
+    }
+
+    main, main > * {
+        margin-left: -390px;
+    }
+}
+
 header > h1 {
     font-size: 24px;
     font-weight: normal;
@@ -46,7 +69,7 @@ main {
     padding-bottom: 1px;
     height: 100%;
     position: relative;
-    margin-left: 390px;
+    padding-left: 400px;
     font-size: 20px;
 }
 
@@ -221,6 +244,7 @@ small {
     display: block;
     margin: auto;
     width: 200px;
+    max-width: 100%;
     height: 150px;
     border-radius: 7px;
 }
@@ -240,8 +264,11 @@ small {
 }
 
 .card > img:hover {
-    transform: scale(2.5);
+    transform: scale(2);
+    position: relative;
     transition: 0.5s ease-in-out;
+    object-position: 50% 50%;
+    z-index: 100000000000;
 }
 
 .card-content {
