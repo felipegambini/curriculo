@@ -478,3 +478,13 @@ small {
 abbr {
     cursor: pointer;
 }
+
+#pdf-download {
+    
+    margin: auto;
+    width: 170px;
+    padding: 10px;
+    background-color: var(--corsecundaria);
+    text-align: center;
+    border-radius: 20px;
+}
