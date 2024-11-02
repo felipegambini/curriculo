@@ -480,11 +480,21 @@ abbr {
 }
 
 #pdf-download {
-    
+
     margin: auto;
     width: 170px;
     padding: 10px;
     background-color: var(--corsecundaria);
     text-align: center;
     border-radius: 20px;
+}
+
+#resume-download {
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#resume-download > a {
+    color: #aaaaaa;
 }
